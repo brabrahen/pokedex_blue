@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+body{
+    background-color: #172540;
+    align-content: center;
+    min-height: 100vh;
+    
+}
+header{
+    background-image: url(/img/capa_editt.jpg);
+    text-align: center;
+    justify-content: flex-start;
+    margin: 15px;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 50px;
+    
+    
+}
+a{
+    font-size: 30px;
+    display: flex;
+    justify-content: left;
+    color: whitesmoke;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+section#pokedex{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#pg-cadastro{
+    color: #D90B56;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+a.card{
+    width: 20rem;
+    padding: 3rem;
+    box-shadow: 0 0 1rem #00000060;
+    margin: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    cursor: pointer;
+    transition: transform 0.5s;
+    background-color: #A55DA6;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+
+section#cadastro{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #A55DA6;
+    margin: 0 20rem 10rem 20rem;
+    box-shadow: 0 0 1rem #00000060;
+    border-radius: 1rem;
+}
+section#cadastro form{
+    width: 100%;
+    padding: 3rem;
+}
+
+section#cadastro form div label{
+    font-size: 1.3rem;
+    color:#D90B56;
+}
+
+section#cadastro form div input{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border: 0.1rem solid rgba(0, 0, 0, 0.301);
+}
+
+section#cadastro form button{
+    border: 1px solid rgb(255, 68, 68);
+    background-color: #ffff;
+    color: rgb(255, 68, 68);
+    padding: 1rem;
+    font-size: 0.8vw;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    width: 40%;
+}
+  
+  span#close {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  span#close:hover{
+    color: rgb(255, 0, 0);
+    transform: scale(1.5);
+  }
+#tt_capa{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    text-align: initial;
+}
+
+#pokedex-det{
+    width: 1400px;
+    height: 920px;
+    padding: 3rem;
+    box-shadow: 0 0 1rem #00000060;
+    margin: 2rem;
+    border-radius: 1rem;
+    
+    text-align: center;
+    background-color: #A55DA6;
+    color: wheat;
+    font-weight: bolder;
+    font-size: 2rem;
+}

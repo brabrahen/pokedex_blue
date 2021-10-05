@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Pokedéx | Detalhes</title>
+</head>
+<body>
+    <nav>
+        <header>
+            <h1 id="tt_capa">
+                <a href="/">Pokedex</a>
+            </h1>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/cadastro">Cadastro</a></li>
+            </ul>     
+        </header>
+    </nav>
+    <section id="pokedex-det">
+        
+            <div class="card-det" href="/details/index">
+                
+                
+                <img src="<%= pokemon.imagem %>"  alt="">
+                    <div>Nome: <%= pokemon.nome %></div>
+                    <div>Tipo: <%= pokemon.tipo %></div>
+                    <div>Descrição: <%= pokemon.descricao %></div>
+                    <div>Altura: <%= pokemon.altura %></div>
+                    <div>Peso: <%= pokemon.peso %></div>
+                    <div>Categoria: <%= pokemon.categoria %></div>
+                    <div>Habilidade: <%= pokemon.habilidade %></div>
+            
+        </div>
+         
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
